@@ -5,6 +5,7 @@
     font-family: Helvetica, Arial, sans-serif;
 }
 
+/* Start Box behavior */
 .flex-direction-row{
     display: flex;
     flex-wrap: wrap;
@@ -12,19 +13,22 @@
     justify-content: space-evenly;
 }
 
+.sticky {
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
+/* End Box behavior */
+
+/* Start header font styles */
 .header {
-    font-size: 100px;
     font-style: italic;
-    color: #fff;
-    background: linear-gradient(70deg, #8EE3EF, #AEF3E7, #E89005, #EC7505);
+    background: linear-gradient(70deg, black, darkgreen, lightgreen, black);
     text-align: center;
 }
 
-.mini-header {
-    font-style: italic;
-    color: #fff;
-    background: linear-gradient(70deg, #8EE3EF, #AEF3E7, #E89005, #EC7505);
-    border-radius: 30px;
+h1 {
+    font-size: 100px;
 }
 
 h2 {
@@ -32,7 +36,7 @@ h2 {
 }
 
 h3 {
-    font-size: 25px; 
+    font-size: 30px; 
     text-align: center;
 }
 
@@ -44,30 +48,19 @@ h4 {
 h5 {
     font-size: 15px;
 }
-.sticky {
-    position: sticky;
-    top: 0;
-    z-index: 9999;
+
+.font-color-one {
+    color: #fff;
 }
+/* End header font styles */
 
-
-/* start functional styles */
-
-/* End functional styles */
-
-
-
-/* start design styles */
+/* Start box background design and colors */
 .background-color-primary {
     background-color: #F7F7F2;
 }
 
-.background-color-secondary {
-    background-color: white;
-}
-
 .rounded {
-    border-radius: 15px;
+    border-radius: 30px;
 }
 
 .rounded-top-seperator {
@@ -78,4 +71,4 @@ h5 {
 .shadows{
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 1.0);
 }
-
+/* End box background design and colors */
