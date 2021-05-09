@@ -5,41 +5,32 @@
     font-family: Helvetica, Arial, sans-serif;
 }
 
-/* Start user interface and selections */
-.selection-header {
-    font-size: 25px;
+.header {
+    font-size: 100px;
+    font-style: italic;
+    color: #fff;
+    background: linear-gradient(70deg, #8EE3EF, #AEF3E7, #E89005, #EC7505);
     text-align: center;
-    color: black;
 }
 
-.selection-box {
-    border-radius: 10px;
-    font-size: 25px;
-    border: none;
-    margin-bottom: 17px;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 1.0);
+
+h2 {
+    font-size: 30px; 
+    text-align: center;
 }
 
-.submit {
-    font-size: 25px;
-    background-color: #C7EBF0;
-    border-radius: 7px;
-    margin-top: 10px;
-    border: black 1px none;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 1.0);
+h3 {
+    font-size: 20px; 
+    text-align: left;
 }
 
-.city-submit {
-    font-size: 15px;
-    background-color: #f39b68;
-    border-radius: 7px;
-    margin-bottom: 17px;
-    border: none;
-    padding: 12px;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 1.0);
-    color: black;
+.sticky {
+    position: sticky;
+    top: 0;
+    z-index: 9999;
 }
-/* End user interface and selections */
+
+
 
 /* start functional styles */
 .flex-direction-row{
@@ -59,13 +50,6 @@
     background-color: #F7F7F2;
 }
 
-.header {
-    font-size: 100px;
-    font-style: italic;
-    color: #fff;
-    background: linear-gradient(70deg, #8EE3EF, #AEF3E7, #E89005, #EC7505);
-    text-align: center;
-}
 
 .text-styles-primary{
     font-size: 26px;
