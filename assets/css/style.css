@@ -5,6 +5,13 @@
     font-family: Helvetica, Arial, sans-serif;
 }
 
+.flex-direction-row{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
 .header {
     font-size: 100px;
     font-style: italic;
@@ -31,39 +38,24 @@ h3 {
 }
 
 
-
 /* start functional styles */
-.flex-direction-row{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
+
 /* End functional styles */
 
-.padding-small{
-    padding: 5px;
-}
+
 
 /* start design styles */
-.background-color-primary{
+.background-color-primary {
     background-color: #F7F7F2;
 }
 
-
-.text-styles-primary{
-    font-size: 26px;
-    text-align: center;
-    color: orange;
+.rounded {
+    border-radius: 10px;
 }
 
-.text-styles-secondary{
-    font-size: 20px;
-    text-align: center;
-    color: black;
-}
 
-.shadows-primary{
+
+.shadows{
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 1.0);
 }
 
