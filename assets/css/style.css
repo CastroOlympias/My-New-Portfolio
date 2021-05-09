@@ -23,7 +23,7 @@
 /* Start header font styles */
 .header {
     font-style: italic;
-    background: linear-gradient(70deg, black, darkgreen, lightgreen, black);
+    background: linear-gradient(70deg, black, darkgreen, lightgreen,red, black);
     text-align: center;
 }
 
