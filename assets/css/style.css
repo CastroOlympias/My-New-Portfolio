@@ -20,6 +20,13 @@
     text-align: center;
 }
 
+.mini-header {
+    font-style: italic;
+    color: #fff;
+    background: linear-gradient(70deg, #8EE3EF, #AEF3E7, #E89005, #EC7505);
+    border-radius: 30px;
+}
+
 h2 {
     font-size: 75px;
 }
@@ -34,6 +41,9 @@ h4 {
     text-align: left;
 }
 
+h5 {
+    font-size: 15px;
+}
 .sticky {
     position: sticky;
     top: 0;
