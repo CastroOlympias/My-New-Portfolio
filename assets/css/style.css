@@ -20,13 +20,16 @@
     text-align: center;
 }
 
-
 h2 {
-    font-size: 30px; 
-    text-align: center;
+    font-size: 75px;
 }
 
 h3 {
+    font-size: 25px; 
+    text-align: center;
+}
+
+h4 {
     font-size: 20px; 
     text-align: left;
 }
@@ -49,19 +52,20 @@ h3 {
     background-color: #F7F7F2;
 }
 
-.rounded {
-    border-radius: 10px;
+.background-color-secondary {
+    background-color: white;
 }
 
+.rounded {
+    border-radius: 15px;
+}
 
+.rounded-top-seperator {
+    border-top: 3px black solid;
+    border-radius: 10px;
+}
 
 .shadows{
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 1.0);
 }
 
-.border-boxes {
-    margin-top: 15px;
-    border-top: 3px black solid;
-    border-radius: 10px;
-}
-/* End design styles */
