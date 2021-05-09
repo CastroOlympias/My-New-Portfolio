@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>we-go!</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+  </head>
+  <body>
+    <header>
+      <h1 class="header">
+        My New Portfolio
+      </h1>
+</header>
+
+
+<main class="flex-direction-row padding-small background-color-primary">
+
+  <!-- Navigation section and nav header -->
+  <section class="column is-one-fifth">
+    <h1 class="selection-header column is-12 search-header">Chose Thine Country!</h1>
+
+    <!-- Search form and submit botton -->
+    <form class="column is-full">
+
+    <select class="search column is-full selection-box" placeholder="Enter Destination">
+      <!-- <option >Select a Country</option>
+      <option value="Brazil">Brazil</option>
+      <option value="Egypt">Egypt</option>
+      <option value="France">France</option>
+      <option value="Germany">Germany</option>
+      <option value="Iraq">Iraq</option>
+      <option value="Lebanon">Lebanon</option>
+      <option value="London">London</option>
+      <option value="Netherlands">Netherlands</option>
+      <option value="Poland">Poland</option>
+      <option value="Turkey">Turkey</option> -->
+
+    </select>
+    <button class="submit column is-full submitBtn">
+      <text>Search</text>
+    </button>
+    </form>
+
+    <!-- section for criteria options for tourism search features -->
+    <div>
+      <div class="border-boxes selection-header column is-full">Chose Thine City!</div>
+        <div class="flex-direction-row padding-small">
+          <button id="one" class="column is-5 city-submit"></button>
+
+          <button id="two" class="column is-5 city-submit"></button>
+
+          <button id="three" class="column is-5 city-submit"></button>
+
+          <button id="four" class="column is-5 city-submit"></button>
+
+          <button id="five" class="column is-5 city-submit"></button>
+
+          <button id="six" class="column is-5 city-submit"></button>
+
+          <button id="seven" class="column is-5 city-submit"></button>
+
+          <button id="eight" class="column is-5 city-submit"></button>
+
+          <button id="nine" class="column is-5 city-submit"></button>
+
+          <button id="ten" class="column is-5 city-submit"></button>
+
+      </div>
+    </div>
+
+  </section>
+
+  <!-- API features sections to unload content into the webpage -->
+  <section class="flex-direction-row column">
+    <!-- Country info links and images -->
+    <aside class="flex-direction-row column is-full city-buttons">
+
+      <div class="column is-half">
+        <h1>we - Go!</h1>
+        <a href="https://castroolympias.github.io/Best-Tours/">
+        <img src="https://raw.githubusercontent.com/CastroOlympias/Best-Tours/main/screenshot.png"></a>
+        <h2>we - Go! is a toursim app. Here is a first look</h2>
+      </div>
+
+      <div class="column is-half">
+        <h1>Weather Dashboard</h1>
+        <a href="https://castroolympias.github.io/WeatherApp/">
+          <img src="https://raw.githubusercontent.com/CastroOlympias/WeatherApp/main/screen%20shot.png"></a>
+          <h2>Weather Dashboard can fetch alot of city weather and forecast data</h2>
+      </div>
+
+    </aside>
+
+<!-- City points of interest -->
+    <aside class="border-boxes flex-direction-row column is-full">
+      <div class="column is-one-third">
+        <h1>TaskMaster Pro</h1>
+        <a href="https://castroolympias.github.io/TaskMasterPro/">
+        <img src="https://raw.githubusercontent.com/CastroOlympias/TaskMasterPro/main/screenshot.png"></a>
+        <h2>Stay organized with Taskmaster Pro</h2>
+      </div>
+
+      <div class="column is-one-third">
+        <h1>Password Generator</h1>
+        <a href="https://castroolympias.github.io/Passwords/">
+        <img src="https://raw.githubusercontent.com/CastroOlympias/Passwords/main/Password%20generator%20screenshot.png"></a>
+        <h2>Create a week or STRONG random password using special, lowercase, uppercase or numbers, from 8 to 128 caracters long</h2>
+      </div>
+
+      <div class="column is-one-third">
+        <h1>RUN BUDDY</h1>
+        <a href="https://castroolympias.github.io/Run-Buddy/">
+        <img src="https://raw.githubusercontent.com/CastroOlympias/Run-Buddy/main/screenshot.png"></a>
+        <h2>Get the exercize you need and the trainer you deserve, get signed up today!</h2>
+      </div>
+      
+    </aside>
+  </section>
+
+  <script src="./assets/js/mainJS.js"></script>
+  <script src="./assets/js/navigation.js"></script>
+  <script src="./assets/js/tourism.js"></script>
+  <script src="./assets/js/weather.js"></script>
+</main>
+</body>
+</html>
