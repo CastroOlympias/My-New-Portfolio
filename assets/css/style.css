@@ -6,7 +6,22 @@
 }
 
 /* Start Box behavior */
-.flex-direction-row{
+.main-flex {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+
+/* .flex-direction-row{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+} */
+
+.feature-section-flex {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -72,3 +87,59 @@ h5 {
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 1.0);
 }
 /* End box background design and colors */
+
+.is-one-fifth {
+    width: 20%;
+}
+
+.is-four-fifths {
+    width: 80%;
+}
+
+.is-half {
+    width: 45%;
+}
+
+.featured-img {
+    width: 100%;
+}
+
+
+/* Media queries for smaller screens */
+@media only screen and (max-width: 1224px) {
+    h1 {
+        font-size: 75px;
+    }
+    
+    h2 {
+        font-size: 55px;
+    }
+    
+    h3 {
+        font-size: 20px; 
+        text-align: center;
+    }
+    
+    h4 {
+        font-size: 15px; 
+        text-align: left;
+    }
+}
+
+@media only screen and (max-width: 896px) {
+    h3 {
+        font-size: 20px; 
+        text-align: center;
+    }
+    
+    h4 {
+        font-size: 15px; 
+        text-align: left;
+    }
+    .mobile-flex{
+        display: flex;
+        /* flex-wrap: wrap; */
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+}
