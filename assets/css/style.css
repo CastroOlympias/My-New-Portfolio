@@ -109,7 +109,7 @@ h4 {
 
 
 /* Media queries for smaller screens */
-@media only screen and (max-width: 1224px) {
+@media only screen and (max-width: 1238px) {
     h1 {
         font-size: 75px;
     }
@@ -129,7 +129,18 @@ h4 {
     }
 }
 
-@media only screen and (max-width: 896px) {
+@media only screen and (max-width: 900px) {
+    .mobile-main-flex {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mini-header {
+        display: none;
+    }
+
     h3 {
         font-size: 20px; 
         text-align: center;
@@ -139,10 +150,37 @@ h4 {
         font-size: 15px; 
         text-align: left;
     }
-    .mobile-flex{
+    .mobile-is-full{
+    width: 98%;
+    }
+    .mobile-is-half {
+        width: 48%;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    h3 {
+        font-size: 20px; 
+        text-align: center;
+    }
+    
+    h4 {
+        font-size: 15px; 
+        text-align: left;
+    }
+    .mobile-is-full{
+    width: 98%;
+    }
+
+    .mobile-is-half {
+        width: 98%;
+    }
+
+    .mobile-main-flex {
         display: flex;
-        /* flex-wrap: wrap; */
+        flex-wrap: wrap;
         flex-direction: column;
         justify-content: space-evenly;
+        
     }
 }
