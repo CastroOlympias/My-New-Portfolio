@@ -98,8 +98,33 @@ h4 {
 }
 
 .shadows{
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 1.0);
+    box-shadow: 10px 10px 10px rgb(37, 3, 3);
 }
+
+a:hover {
+    color:#520101;
+}
+
+img {
+    background: #ededed;
+    border: 1px solid #ccc;
+    padding: 10px 30px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+
+  img:hover {
+    background: #e5e5e5;
+     outline: none;
+  }
+  
+  img:active {
+    background: #e5e5e5;
+    -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+       -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+            box-shadow: inset 0px 0px 5px #c1c1c1;
+     outline: none;
+  }
 /* End box background design and colors */
 
 
@@ -162,6 +187,9 @@ h4 {
 @media only screen and (max-width: 700px) {
     h1 {
         font-size: 50px;
+    }
+    h2 {
+        font-size: 45px;
     }
     h3 {
         font-size: 20px; 
